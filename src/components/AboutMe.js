@@ -8,5 +8,5 @@ function AboutMe(props) {
     </div>
   );
 }
-
+console.log ("Hello")
 export default AboutMe;
