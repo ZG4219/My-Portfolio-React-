@@ -6,3 +6,12 @@
     font-family: 'Quicksand', sans-serif;
   }
   
+  .header-name {
+    transition: all 0.3s ease-in-out; /* add transition effect for smooth animation */
+  }
+  
+  .header-name:hover {
+    color: #ff2d55; /* change text color to bright pink */
+    transform: scale(1.2); /* increase font size by 20% */
+  }
+  
