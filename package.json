@@ -45,9 +45,8 @@
     ]
   },
   "devDependencies": {
-    "gh-pages": "^5.0.0"
-  },
+    "gh-pages": "^5.0.0",
   "homepage": "https://zg4219.github.io/My-Portfolio-React-",
   "deploy": "npm run build && gh-pages -d build"
-
+  }
 }
