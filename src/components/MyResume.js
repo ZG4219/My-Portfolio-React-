@@ -6,7 +6,7 @@ function MyResume() {
       <h2 className="text-2xl font-bold mb-4">My Resume</h2>
       <p className="text-gray-600 mb-4">Download a copy of my resume below:</p>
       <div className="flex justify-center mb-8">
-        <a href="/Dionne's Resume.PDF" target="_blank" rel="noopener noreferrer" className="bg-blue-500 hover:bg-blue-600 text-white font-bold py-2 px-4 rounded">
+        <a href="/Dionne's Resume.PDF" target="_blank" rel="noopener noreferrer" className="bg-pink-400 hover:bg-pink-600 text-white font-bold py-2 px-4 rounded">
           Download Resume (PDF)
         </a>
       </div>

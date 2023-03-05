@@ -31,3 +31,8 @@ This portfolio can be deployed to a hosting platform, such as Github Pages or He
 ## Credits
 
 This portfolio was built using **Create React App** as a starting point. The design and additional functionality were implemented by Dionne Angeles.
+
+## Links
+
+- Github URL:
+- Github Repo: https://github.com/ZG4219/My-Portfolio-React-
