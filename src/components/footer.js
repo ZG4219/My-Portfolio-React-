@@ -17,8 +17,8 @@ function Footer() {
           <FontAwesomeIcon icon={faInstagram} size="2x" />
         </a>
         <a href="mailto:jr8dionne@yahoo.com" target="_blank" rel="noopener noreferrer" className="mx-4">
-              <FaEnvelope className="text-3xl text-gray-800 hover:text-gray-900 transition-colors duration-300" />
-            </a>
+          <FaEnvelope className="text-3xl text-gray-800 hover:text-gray-900 transition-colors duration-300" />
+        </a>
       </div>
     </footer>
   );
