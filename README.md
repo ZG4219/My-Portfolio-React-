@@ -45,5 +45,5 @@ This portfolio was built using **Create React App** as a starting point. The des
 
 ## Links
 
-- Github URL:
+- Github URL:  https://zg4219.github.io/My-Portfolio-React-/
 - Github Repo: https://github.com/ZG4219/My-Portfolio-React-
