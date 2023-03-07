@@ -1,20 +1,17 @@
-import React, { useState } from 'react';
+import React from 'react';
+import { BrowserRouter as Router, Routes, Route, Navigate } from 'react-router-dom';
 import AboutMe from './components/AboutMe';
 import MyResume from './components/MyResume';
 import Portfolio from './components/Portfolio';
 import ContactMe from './components/ContactMe';
-
 import Header from './components/header';
 import Footer from './components/footer';
-
 import { useEffect } from 'react';
 
 import './App.css';
 import './index.css';
 
 function App() {
-  const [currentPage, setCurrentPage] = useState('AboutMe'); // initialize state to AboutMe component
-
   useEffect(() => {
     const link = document.createElement('link');
     link.href = 'https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500;700&family=Quicksand:wght@400;500;600&display=swap';
@@ -22,37 +19,20 @@ function App() {
     document.head.appendChild(link);
   }, []);
 
-  const handleNavigation = (page) => {
-    setCurrentPage(page); // update state with new page
-  }
-
-  let pageToRender = null;
-  switch (currentPage) {
-    case 'AboutMe':
-      pageToRender = <AboutMe />;
-      break;
-    case 'Portfolio':
-      pageToRender = <Portfolio />;
-      break;
-    case 'MyResume':
-      pageToRender = <MyResume />;
-      break;
-    case 'ContactMe':
-      pageToRender = <ContactMe />;
-      break;
-    default:
-      pageToRender = <AboutMe />;
-
-  }
-
   return (
-    <div className="App">
-      <Header onNavigation={handleNavigation} />
-      {pageToRender}
-      <Footer />
-      {console.log ("line 52", currentPage)}
-    </div>
-   
+    <Router>
+      <div className="App">
+        <Header />
+        <Routes>
+          <Route path="/" element={<Navigate to="/AboutMe" />} />
+          <Route path="/AboutMe" element={<AboutMe />} />
+          <Route path="/Portfolio" element={<Portfolio />} />
+          <Route path="/MyResume" element={<MyResume />} />
+          <Route path="/ContactMe" element={<ContactMe />} />
+        </Routes>
+        <Footer />
+      </div>
+    </Router>
   );
 }
 
