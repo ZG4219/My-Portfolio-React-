@@ -24,11 +24,11 @@ function App() {
       <div className="App">
         <Header />
         <Routes>
-          <Route path="/" element={<Navigate to="/AboutMe" />} />
-          <Route path="/AboutMe" element={<AboutMe />} />
-          <Route path="/Portfolio" element={<Portfolio />} />
-          <Route path="/MyResume" element={<MyResume />} />
-          <Route path="/ContactMe" element={<ContactMe />} />
+          <Route path="/My-Portfolio-React-" element={<Navigate to="/My-Portfolio-React-/AboutMe" />} />
+          <Route path="/My-Portfolio-React-/AboutMe" element={<AboutMe />} />
+          <Route path="/My-Portfolio-React-/Portfolio" element={<Portfolio />} />
+          <Route path="/My-Portfolio-React-/MyResume" element={<MyResume />} />
+          <Route path="/My-Portfolio-React-/ContactMe" element={<ContactMe />} />
         </Routes>
         <Footer />
       </div>
