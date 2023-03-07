@@ -41,6 +41,7 @@ function App() {
       break;
     default:
       pageToRender = <AboutMe />;
+
   }
 
   return (
@@ -48,7 +49,9 @@ function App() {
       <Header onNavigation={handleNavigation} />
       {pageToRender}
       <Footer />
+      {console.log ("line 52", currentPage)}
     </div>
+   
   );
 }
 
