@@ -3,8 +3,9 @@ import AboutMe from './components/AboutMe';
 import MyResume from './components/MyResume';
 import Portfolio from './components/Portfolio';
 import ContactMe from './components/ContactMe';
-import Header from './components/Header';
-import Footer from './components/Footer';
+
+import Header from './components/header';
+import Footer from './components/footer';
 
 import { useEffect } from 'react';
 
