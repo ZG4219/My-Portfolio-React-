@@ -68,10 +68,10 @@ function Portfolio() {
                     </a>
                     <a href="https://example.com" target="_blank" rel="noopener noreferrer" className="relative block">
                         <div className="bg-white shadow-md rounded-lg overflow-hidden">
-                            <img src={require("../assets/FitnessTracker.png")} alt="Project 6" className="w-full h-64 object-cover transition-all duration-300 transform hover:scale-105" />
+                            <img src={require("../assets/FitnessJournal.png")} alt="Project 6" className="w-full h-64 object-cover transition-all duration-300 transform hover:scale-105" />
                             <div className="px-4 py-4">
-                                <h2 className="text-xl font-bold text-gray-800">Project 6 <i>(still in progress)</i></h2>
-                                <p className="text-gray-600 mt-2 font-extralight text-sm">"Introducing my latest project, a <b>Fitness Tracker App</b> built using the MERN (MongoDB, Express, React, Node.js) stack! This app allows users to track their daily workouts and monitor their progress over time. With features such as the ability to add new exercises and workouts, view historical data, and analyze statistics, it's the perfect tool for anyone looking to take their fitness journey to the next level. Using cutting-edge technology and modern design, this app is both intuitive and user-friendly. So whether you're a fitness enthusiast or just getting started on your fitness journey, my Fitness Tracker App built with MERN has got you covered!"</p>
+                                <h2 className="text-xl font-bold text-gray-800">Project 6</h2>
+                                <p className="text-gray-600 mt-2 font-extralight text-sm">"Introducing my latest project, a <b>Fitness Journal 3.0 App</b> built using the MERN (MongoDB, Express, React, Node.js) stack! This app allows users to track their daily workouts and monitor their progress over time. With features such as the ability to add new exercises and workouts, view historical data, and analyze statistics, it's the perfect tool for anyone looking to take their fitness journey to the next level. Using cutting-edge technology and modern design, this app is both intuitive and user-friendly. So whether you're a fitness enthusiast or just getting started on your fitness journey, my Fitness Tracker App built with MERN has got you covered!"</p>
                             </div>
                         </div>
                     </a>
