@@ -14,17 +14,17 @@ function MyResume() {
         <div className="bg-white shadow-md rounded-lg p-6">
           <h3 className="text-xl font-bold mb-4">Experience</h3>
           <ul className="list-disc list-inside">
-            <li>Lead Count Room Attendant @ Sky River Casino</li>
-            <li>Bookkeeper/Lead Clerk @ WinCo Foods</li>
+            <li>Lead Count Room Attendant @ Sky River Casino - August 2022 - Present</li>
+            <li>Bookkeeper/Lead Clerk @ WinCo Foods - January 2002-June 2022</li>
 
           </ul>
         </div>
         <div className="bg-white shadow-md rounded-lg p-6">
           <h3 className="text-xl font-bold mb-4">Education</h3>
           <ul className="list-disc list-inside">
-            <li>UC Davis BootCamp, Sacramento, CA</li>
-            <li>AMA Computer College, Philippines</li>
-            <li>St. Paul College of Manila, Philippines</li>
+            <li>Full Stack Development, UC Davis BootCamp, Sacramento, CA</li>
+            <li>Computer Programming, AMA Computer College, Philippines</li>
+            <li>Bachelor of Science in Hotel and Restaurant Management, St. Paul College of Manila, Philippines</li>
           </ul>
         </div>
       </div>
