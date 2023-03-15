@@ -66,7 +66,7 @@ function Portfolio() {
                             </div>
                         </div>
                     </a>
-                    <a href="https://example.com" target="_blank" rel="noopener noreferrer" className="relative block">
+                    <a href="https://fitnessjournal.herokuapp.com/register" target="_blank" rel="noopener noreferrer" className="relative block">
                         <div className="bg-white shadow-md rounded-lg overflow-hidden">
                             <img src={require("../assets/FitnessJournal.png")} alt="Project 6" className="w-full h-64 object-cover transition-all duration-300 transform hover:scale-105" />
                             <div className="px-4 py-4">
